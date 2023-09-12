@@ -1,0 +1,212 @@
+.container-cont{
+    background: rgb(14,5,36);
+    background: linear-gradient(0deg, rgba(14,5,36,1) 0%, rgba(62,18,69,1) 83%);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.banner-taro{
+    background-image: url(../start.gif);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-taro h1{
+    font-size: 3rem;
+}
+
+.conten-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.conten-info img{
+    height: 200px;
+}
+
+.title-sig{
+    color: #FFF; 
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+}
+
+.content-info-zodical{
+    color: #FFF;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.prediccion{
+    margin-bottom: 1rem;
+    /* border: 1px solid #fff; */
+    padding: 1%;
+    border-radius: 8px;
+}
+
+.prediccion h3{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.line-prediccion{
+    width: 100%;
+    margin-top: -10px;
+}
+
+.prediccion p{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.prediccion h3 svg{
+    margin-right: 10px;
+}
+
+
+
+.card-plan-zodiaco{
+    color: #FFF;
+    width: 250px;
+    background-image: url(../start.gif);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -6px rgba(238, 238, 238, 0.541);
+    transition: box-shadow 500ms ease-in-out;
+}
+
+.card-plan-zodiaco:hover{
+    box-shadow: 0px 0px 15px -4px rgba(238, 238, 238, 0.959);
+    transition: box-shadow 500ms ease-in-out;
+}
+
+
+.fondo-nube-cosmica{
+    background-image: url(../img/fondo-plan.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-plan-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.card-plan-info h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card-plan-info .des{
+    font-weight: bold;
+}
+
+.container-planes-card{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.title-oferta{
+    color: #FFF;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section-plan{
+    background-image: url(../img/fondo-plan.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.svg-flecha-path{
+    fill: rgba(129,29,140,0.4);
+    transition: fill 300ms  ease-in-out;
+}
+
+.link-sodical{
+    display: block;
+    border-bottom: 1px solid #FFF ;
+    color: #FFF;
+    transition: color 300ms ease-in-out;
+    margin-bottom: 20px;
+}
+.link-sodical p{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.link-sodical:hover{
+    color: rgba(129,29,140);
+    transition: color 300ms ease-in-out;
+}
+
+.link-sodical:hover .svg-flecha-path{
+    fill: rgb(255, 255, 255);
+    transition: fill 300ms ease-in-out;
+    
+}
+
+.links-zodicales{
+    margin-left: 50px;
+    
+}
